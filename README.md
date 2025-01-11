@@ -1,4 +1,3 @@
-**In Portuguese**
 # Projeto de Banco de Dados de E-commerce
 
 	- Contexto: Levantamento de requisitos
