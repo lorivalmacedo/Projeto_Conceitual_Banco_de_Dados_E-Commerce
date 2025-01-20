@@ -6,8 +6,8 @@
 
 # Modelando E-COMMERCE:
 ### Produto:
-	- Os produtos são vendidos por uma unica plataforma online. Contudo, estes podem ter vendedores distintos (terceiros)
-	- Cada produto possui um fornecedor
+	- Fornecedores vendem produtos em uma única plataforma online
+	- Um mesmo produto pode ter mais de um fornecedor
 	- Um ou mais produtos podem compor o pedido
 
 ### Cliente:
