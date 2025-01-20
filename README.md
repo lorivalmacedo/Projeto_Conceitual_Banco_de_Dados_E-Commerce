@@ -1,8 +1,8 @@
 # Projeto de Banco de Dados de E-commerce
 
 	- Contexto: Levantamento de requisitos
-	- Projeto Conceitual: Modelo Entidade Relacionamento
-	- Projeto Lógico: Modelo Relacional
+	- Projeto Conceitual: Modelo das entidades e relacionamentos
+	- Projeto Lógico: Modelo relacional
 
 # Modelando E-COMMERCE:
 ### Produto:
@@ -16,13 +16,16 @@
 	- Um cliente pode comprar mais de um pedido. Este tem um período de carência para devolução do produto
 
 ### Pedido:
-	- O pedidos são criados por clientes e possuem informações de compra, endereço e status da entrega
-	- Um produto ou mais compoem o pedido
+	- Os pedidos são criados por clientes e possuem informações de compra, endereço e status da entrega
+	- Um produto ou mais compõem o pedido
 	- O pedido pode ser cancelado
 
+### Estoque:
+	- Cada fornecedor tem seus estoques declarados
+ 	- Um fornecedor pode ter mais de um estoque
 
 ## Entidades: 
-- Cliente, Pedido, Produto e Fornecedor & estoque
+- Cliente, Pedido, Produto, Fornecedor e Estoque
 
 # Refinamento:
 	- Cliente PJ e PF - Uma conta pode ser PJ ou PF, mas não pode ter as duas informações
