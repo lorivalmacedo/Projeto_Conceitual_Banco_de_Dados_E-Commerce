@@ -1,5 +1,5 @@
 -- Criando o banco de dados
--- CREATE DATABASE ecommerce;
+CREATE DATABASE ecommerce;
 USE ecommerce;
 
 -- Criando a tabela "Produto"
